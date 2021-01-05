@@ -1,0 +1,88 @@
+<html>
+    <head>
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <link id = "style" rel = "stylesheet" type = "text/css" href = "style.css">
+
+
+        <title>Sorting Algorithms</title>
+    </head>
+    <body>
+
+        <div id="header">
+            <div id="headerTitle" style="float:left;">
+                Sorting Algorithm:
+            </div>
+
+            <div id="headerButtons" style= "float: left;">
+
+                <button class="sort" id="insertionSort" type="button">
+                    Insertion Sort
+                </button>
+                <button class="sort" id="selectionSort" type="button">
+                    Selection Sort
+                </button>
+                <button class="sort" id="bubbleSort" type="button">
+                    Bubble Sort
+                </button>
+                <button class="sort" id="quickSort" type="button">
+                    Quick Sort
+                </button>
+                <button class="sort" id="mergeSort" type="button">
+                    Merge Sort
+                </button>
+
+            </div>
+            <div id="randomButton"  style="float:left;">
+                <button id="randomize" type="button">
+                    Randomize Values
+                </button>
+            </div>
+            <div id="numItems" class="input-group mb-3">
+                <div class="input-group-prepend" style="float:left;">
+
+
+                    <input id = "recInput" type="text" class="form-control" placeholder="Number of Items" aria-label="Number of Items" aria-describedby="basic-addon1" style="float:left;">
+                </div>
+                <div id="enterbuttondiv">
+                    <button id = "enterRectangleNum" class="btn btn-primary" style="float:left">
+                        Enter</button>
+                </div>
+
+
+            </div>
+            <div id="speedbar" style="display:inline-block">
+
+
+                <div id ="speedlabel">
+                    Speed:
+                </div>
+
+
+
+                <div id="slider">
+                    <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                </div>
+                <div id="finish">
+                    <button id = "finishbutton" class="btn btn-primary" >Finish</button>
+
+
+                </div>
+                <div id="timer" style="display: inline; color: white;">
+                    00:00:00.00
+                </div>
+            </div>
+
+
+
+        </div>
+        <div id="rectangles">
+
+
+
+
+        </div>
+        <script src = "script.js">
+        </script>
+    </body>
+</html>

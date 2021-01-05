@@ -1,0 +1,128 @@
+
+body{
+    background-color: lightgrey;
+}
+#headerbuttons{
+    margin: 5;
+    margin-left: 10;
+}
+#header{
+    background-color: black;
+    height: auto;
+
+
+
+}
+
+#headertitle{
+    color: white;
+    margin-top: 7 !important;
+    margin: 10;
+}
+#selectionSort, #insertionSort, #bubbleSort, #quickSort, #mergeSort, #randomize{
+    margin-left: -4;
+    margin-top: 0;
+    color: white;
+    background-color: black;
+    border-color: black;
+    border-width: 1 !important;
+}
+
+#randombutton{
+    margin: 10;
+    clear: both;
+    float:none;
+}
+
+#numitems{
+    margin: 10;
+}
+#enterbuttondiv{
+    margin-left: 5;
+}
+
+#slider{
+    
+    color:white;
+    display: inline;
+    position: relative;
+    margin-left: 5;
+    margin-top: 100;
+
+}
+#speedbar{
+    margin-left: 5;
+    display:inline;
+}
+#speedlabel{
+/*    margin: 10;*/
+    width: 60;
+    color: white;
+    display: inline;
+    position: relative;
+    top: -3;
+
+
+}
+#finish{
+    display: inline;
+    position: relative;
+    left: 5;
+    bottom: 5;
+
+}
+
+#selectionSort:hover, #insertionSort:hover, #bubbleSort:hover, #quickSort:hover, #mergeSort:hover, #randomize:hover{
+    background-color: white;
+    color: black;
+}
+
+#rectangles{
+    
+    
+    
+    
+    
+    
+    
+}
+
+.element{
+    float: none !important;
+    display: inline-block;
+ 
+    
+
+    
+    
+}
+
+.element:hover{
+    background-color: blue !important;
+    color: black;
+    position: relative;
+}
+
+.tooltiptext{
+    visibility: hidden;
+    background-color: darkgrey;
+    bottom: -30;
+    position: absolute;
+    z-index: 100 !important;
+    
+
+
+
+}
+
+#timer{
+    display: inline;
+    margin-left: 20;
+    
+}
+
+.element:hover .tooltiptext {
+    visibility: visible;
+    
+
+}
