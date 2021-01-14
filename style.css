@@ -77,23 +77,11 @@ body{
     color: black;
 }
 
-#rectangles{
-    
-    
-    
-    
-    
-    
-    
-}
 
 .element{
     float: none !important;
     display: inline-block;
- 
-    
-
-    
+  
     
 }
 
@@ -113,6 +101,9 @@ body{
 
 
 
+}
+#mergeSort{
+    visibility: hidden;
 }
 
 #timer{
